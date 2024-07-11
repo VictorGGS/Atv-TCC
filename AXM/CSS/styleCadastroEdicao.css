@@ -1,0 +1,155 @@
+/* Paleta de cores*/
+
+*{
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    :root{
+        --braNco: #ffffff;
+        --prEto: #000000;
+        --ciNza: #DBDBDB;
+        --ciAno: #65d9ff;
+        --azul1: #223140;
+        --azul2: #032B43;
+        --amaRelo: #f5c400;
+    }
+    
+    body{
+        width: 1024px;
+        margin: auto;
+    }
+     /* Cabeçalho */
+    header{
+        background: var(--azul2);
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #logo{
+        width: 100px;
+    }
+    
+    #espacoLogo{
+        width: 787.2px;
+    }
+    
+    .iconesEntrada{
+        width: 196px;
+        font-size: 1.5em;
+        line-height: 100px;
+        padding: 0px 25px;
+    }
+    
+    /*
+    header a{
+        color: var(--braNco);
+        text-decoration: none;
+    }
+    
+    header a:hover{
+        padding: 10px;
+        background: var(--braNco);
+        color: var(--azul2);
+        border: solid var(--braNco) 12px;
+        border-radius: 100px;
+    }
+    */
+    
+    a:link{
+        color: var(--braNco);
+        text-decoration: none;
+    }
+    a:visited{
+        color: var(--braNco);
+        text-decoration: none;
+    }
+    a:hover{
+        background: var(--braNco);
+        color: var(--azul2);
+        border: solid var(--braNco) 20px;
+        border-radius: 100px;
+    }
+    
+    #linkLogo{
+        background: none;
+        border: none;
+        padding: 0px;
+    }
+    
+    /* Fim cabeçalho */
+    
+    /* Conteúdo*/
+    main{
+        background: var(--ciNza);
+        padding: 20px;
+    }
+    
+    .tituloConteudoTexto{
+        font-size: 1.7em;
+        color: var(--braNco);
+        background-color: var(--azul2);
+        border: solid var(--azul2) 10px;
+        border-radius: 10px;
+    }
+    
+    .conteudoTexto{
+        font-size: 1.2em;
+    }
+    /* Fim conteúdo */
+
+    /* Main do cadastro/ediçao de materila*/
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000000(0,0,0,0.1);
+}
+
+form label {
+    display: inline;
+    margin-bottom: 8px;
+}
+
+form textarea,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #223140;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #223140;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #223140;
+}
+/* fim do Main do cadastro/ediçao de material*/
+    
+    /* Rodapé */
+    footer{
+        background: var(--azul2);
+        padding: 20px;
+    }
+    #rodape{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: right;
+    }
+    .iconeRodape{
+        padding: 20px;
+        color: var(--braNco);
+    }
+    /* Fim rodapé */
+    
+
+
